@@ -50,7 +50,7 @@ Works on Windows, macOS and Linux.
 ## 🚀 Quick start
 
 ```bash
-git clone https://github.com/<your-username>/spunky-claude.git
+git clone https://github.com/Spunky-Sukh/spunky-claude.git
 cd spunky-claude
 ```
 
@@ -220,9 +220,3 @@ Exact shapes: [`backend/app/routers/chat.py`](backend/app/routers/chat.py) and [
 | Chat says *Disconnected* | Open the app via `http://localhost:8000` (or `:5173` in dev) — other addresses are rejected on purpose. |
 | `pip install` fails building a package | Use Python 3.10–3.13 if your Python version has no prebuilt wheels yet. |
 | Claude in Chrome does nothing | Install/connect the [extension](https://claude.ai/chrome), enable it in Settings, then start a **new** session. |
-
----
-
-## 🙏 Credits
-
-Built on [Claude Code](https://docs.claude.com/en/docs/claude-code) and the [Claude Agent SDK](https://github.com/anthropics/claude-agent-sdk-python) by Anthropic.
