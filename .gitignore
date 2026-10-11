@@ -1,0 +1,27 @@
+# Python
+backend/envs/
+backend/data/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node / frontend
+frontned/node_modules/
+frontned/dist/
+frontned/package-lock.json
+
+# Secrets & local config — never commit these
+.env
+.env.*
+*.local
+.credentials.json
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+Project Description.md
